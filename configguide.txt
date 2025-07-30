@@ -1,5 +1,7 @@
 [ HOW TO CONFIGURE SNM ]
 
+file path defaults to $HOME/.config/snm/snm.conf, you can set custom paths with the -f flag
+
 There are only 5 things to configure, 
 [time]
 start_hour = // this should be in HHMM format (ex. 2100 for 9:00pm)
