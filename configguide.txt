@@ -1,0 +1,11 @@
+[ HOW TO CONFIGURE SNM ]
+
+There are only 5 things to configure, 
+[time]
+start_hour = // this should be in HHMM format (ex. 2100 for 9:00pm)
+end_hour = // same story as start_hour
+transition_time = // the amount of time it takes to transition from daytime settings to night. HHMMM format again
+
+[main]
+shift = // between 1 and 0, 1 is daytime settings, 0 is full gamma shift
+brightness = // again, between 1 - 0. 0 is completely off, 1 is daytime
